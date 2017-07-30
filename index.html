@@ -27,7 +27,7 @@
             }
         </style>
     </head>
-    <body>
+    <body style="display:none;">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -41,13 +41,13 @@
             </div>
         </div>
         <script
-  src="http://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script>
-            $(document).load(function() {
-                $('body').fadeIn(2000);
+            $(document).ready(function() {
+                $('body').fadeIn(2000).css("display","block");
             });
         </script>
     </body>
